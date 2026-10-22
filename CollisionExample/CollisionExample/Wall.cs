@@ -1,14 +1,15 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace CollisionExample
+namespace CollisionDetectionExample
 {
     internal class Wall
     {
         public Rectangle Bounds { get; }
 
-        public Wall(Rectangle bounds)
+        public Wall(Rectangle bounds) 
         {
             Bounds = bounds;
         }

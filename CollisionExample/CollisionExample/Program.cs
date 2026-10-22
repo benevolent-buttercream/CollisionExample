@@ -1,2 +1,2 @@
-﻿using var game = new CollisionExample.Game1();
+﻿using var game = new CollisionDetectionExample.Game1();
 game.Run();
